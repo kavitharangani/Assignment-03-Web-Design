@@ -6,6 +6,8 @@
    
 🖋️ 02-Case
 
+      💫 Fixed Position
+
 🖋️ 03-Case
 
 🖋️ 04-Case
