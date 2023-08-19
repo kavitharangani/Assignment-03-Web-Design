@@ -2,14 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>04 Case CSS</title>
-    <link rel="stylesheet" href="assest/fontsizecss/css/all.min.css">
+    <title>Case 03</title>
     <link rel="stylesheet" href="../01_Case/assest/css/normalize.css">
     <style>
 
+        /*section{*/
+        /*    position: sticky;*/
+        /*    top: 0;*/
+        /*}*/
+        .ch{
+            position: sticky;
+            top: 0;
+            z-index: 9999;
+        }
+
         section>div:first-child{
             height: 50px;
-            position: relative;
+            /*position: relative;*/
         }
         section>div:first-child>span{
             height: fit-content;
@@ -34,11 +43,6 @@
             margin: auto;
             font-size: 80px;
         }
-
-        section{
-            position: sticky;
-            top: 0;
-        }
         section:first-child>div:first-child{
             background: red;
         }
@@ -52,16 +56,16 @@
             background: lightblue;
         }
         section:nth-child(3)>div:first-child{
-            background: lightgreen;
+            background: gray;
         }
         section:nth-child(3)>div:nth-child(2){
-            background: darkgreen;
+            background: lightgray;
         }
         section:nth-child(4)>div:first-child{
-            background: lightpink;
+            background: burlywood;
         }
         section:nth-child(4)>div:nth-child(2){
-            background: deeppink;
+            background: rosybrown;
         }
 
     </style>
@@ -69,7 +73,7 @@
 <body>
 <main>
     <section>
-        <div>
+        <div class="ch">
             <span>Card 01</span>
         </div>
         <div>
@@ -77,27 +81,27 @@
         </div>
     </section>
     <section>
-        <div>
+        <div class="ch">
             <span>Card 02</span>
         </div>
         <div>
-            <span>How</span>
+            <span>how</span>
         </div>
     </section>
     <section>
-        <div>
+        <div class="ch">
             <span>Card 03</span>
         </div>
         <div>
-            <span>Are</span>
+            <span>are</span>
         </div>
     </section>
     <section>
-        <div>
+        <div class="ch">
             <span>Card 04</span>
         </div>
         <div>
-            <span>You</span>
+            <span>you?</span>
         </div>
     </section>
 </main>
