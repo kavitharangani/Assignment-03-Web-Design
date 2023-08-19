@@ -6,11 +6,15 @@
    
 🖋️ 02-Case
 
-      💫 Fixed Position
+      💫 Relative Position
 
 🖋️ 03-Case
 
+      💫 Fixed Position
+
 🖋️ 04-Case
+
+      💫 Sticky Position
 
 🖋️ 05-Case
 
